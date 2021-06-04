@@ -1,14 +1,6 @@
-/*
- * Main functions: core call infrastructure, letting setting up the room, event listeners, and joining
- * Event listener callbacks: fired when specified Daily events execute
- * Call panel button functions: participant controls
- */
 
 /* Main functions */
 
-// Creates the callframe
-// Defines event listeners on Daily events
-// Assigns an event listener to the input field to change the join button color
 async function setup() {
   callFrame = await window.DailyIframe.createFrame(
     document.getElementById('callframe'),
@@ -59,7 +51,6 @@ async function setup() {
 async function createRoom() {
   // This endpoint is using the proxy as outlined in netlify.toml
   const newRoomEndpoint = `${window.location.origin}/api/rooms`;
-
   // we'll add 30 min expiry (exp) so rooms won't linger too long on your account
   // we'll also turn on chat (enable_chat)
   // see other available options at https://docs.daily.co/reference#create-room
@@ -82,14 +73,9 @@ async function createRoom() {
   } catch (e) {
     console.error(e);
   }
-
-  // Comment out the above and uncomment the below, using your own URL
-  // if you prefer to test with a hardcoded room
   // return {url: "https://your-domain.daily.co/hello"}
 }
 
-// Creates a temporary Daily demo room
-// Assigns the demo room URL to the input value
 // Changes the color of the 'join' button once a room has been created
 async function createDemoRoom() {
   const createButton = document.getElementById('create-button');

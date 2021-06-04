@@ -16,7 +16,7 @@
           alt="Anoops logo!"
         />
       </header>
-      <h1 class="title">Anoop's Hacky demo - Live Streaming webRTC calls</h1>
+      <h1 class="title">Live Streaming webRTC calls</h1>
       <div class="instructions">
         <p id="instruction-text">
           Enter a room URL (contact raanoop@ if you don't have one!)
@@ -51,11 +51,6 @@
           </div>
           <div class="info">
             <h3 class="call-panel--subtitle">Example custom controls</h3>
-            <p>
-              You can also create your own meeting controls outside the
-              callframe using
-              <a href="https://github.com/daily-co/daily-js">daily-js</a>.
-            </p>
             <h4 class="call-panel--control-type">Participant controls</h4>
             <button
               class="call-panel--button button"
@@ -108,13 +103,6 @@
             </button>
             <button
               class="call-panel--button button"
-              id="surprise-button"
-              onclick="updateBackground()"
-            >
-              Surprise me
-            </button>
-            <button
-              class="call-panel--button button"
               id="start-livestreaming"
               onclick="startLiveStreaming()"
             >
@@ -127,22 +115,6 @@
             >
               Stop live streaming
             </button>
-            <h4 class="call-panel--control-type">Track subscriptions</h4>
-            <p>
-              You can
-              <a
-                href="https://www.daily.co/blog/create-dynamic-meetings-using-track-subscriptions/"
-                >programmatically subscribe to the tracks</a
-              >
-              (mic, cam, screenshare) of other participants.
-              <button
-                class="call-panel--button button"
-                id="tracks-button"
-                onClick="unsubscribeTracks()"
-              >
-                Unsubscribe from video and audio
-              </button>
-            </p>
           </div>
         </div>
       </div>
