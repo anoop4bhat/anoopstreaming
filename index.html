@@ -1,12 +1,11 @@
 <html>
   <head>
-    <title>Daily Prebuilt UI demo</title>
+    <title>Anoop's Hacky demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://unpkg.com/@daily-co/daily-js"></script>
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <link rel="stylesheet" href="./index.css" />
     <script src="./index.js"></script>
-    <!-- <script src="../shared-assets/create-demo-room.js"></script> -->
   </head>
   <body onload="setup()" class="main">
     <div class="container">
@@ -14,19 +13,13 @@
         <img
           src="assets/logo@2x.png"
           class="logo"
-          alt="Daily logo reads Daily"
+          alt="Anoops logo!"
         />
-        <div>
-          <a href="https://github.com/daily-demos"
-            ><img src="assets/github@icons8.png" alt="GitHub logo Octocat"
-          /></a>
-        </div>
       </header>
-      <h1 class="title">Daily Prebuilt UI demo</h1>
+      <h1 class="title">Anoop's Hacky demo - Live Streaming webRTC calls</h1>
       <div class="instructions">
         <p id="instruction-text">
-          To get started, enter an existing room URL or create a temporary demo
-          room
+          Enter a room URL (contact raanoop@ if you don't have one!)
         </p>
         <div class="input-and-buttons">
           <label for="room-url"></label>
@@ -37,9 +30,6 @@
             placeholder="Room URL"
             pattern="^(https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.(daily\.co\/)([a-z0-9]+)+$"
           />
-          <!-- <button class="button" id="create-button" onclick="createDemoRoom()">
-            Create demo room
-          </button> -->
           <button class="join-call button" onclick="joinCall()">
             Join call
           </button>

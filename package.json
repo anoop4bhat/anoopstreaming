@@ -1,7 +1,7 @@
 {
-  "name": "prebuilt-ui",
+  "name": "anoopstreaming demo",
   "version": "1.0.0",
-  "description": "demo of Daily's prebuilt UI for video calls",
+  "description": "i am a copy paste hacker!! don't comment on the code!",
   "scripts": {
     "dev": "http-server"
   },
