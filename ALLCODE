@@ -1,0 +1,13 @@
+curl --request POST \
+--url https://api.daily.co/v1/meeting-tokens \
+--header 'authorization: Bearer 0e0b1e9a3b4445be3582dd2fe50d8266f443b1d8f8bfe89f8684b4a102bbcca8' \
+--header 'content-type: application/json' \
+--data '{"properties":{"is_owner":true,"user_name":"Administrator"}}'
+
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvIjp0cnVlLCJ1IjoiQWRtaW5pc3RyYXRvciIsImQiOiJmZjU1MGQxNi03ZTM4LTRhODgtYjIwYy03NjllMGIwNDk1YzIiLCJpYXQiOjE2MjI3NzU4ODR9.ukoNop_dkOGYbXPs3VhRuv_DoAiuMITnUTZSVo7G9xg"}% 
+
+
+https://anoopaws.daily.co/anoopLiveStream?t=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvIjp0cnVlLCJ1IjoiQWRtaW5pc3RyYXRvciIsImQiOiJmZjU1MGQxNi03ZTM4LTRhODgtYjIwYy03NjllMGIwNDk1YzIiLCJpYXQiOjE2MjI3NzU4ODR9.ukoNop_dkOGYbXPs3VhRuv_DoAiuMITnUTZSVo7G9xg
+
+
