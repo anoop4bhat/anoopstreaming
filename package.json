@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "demo of Daily's prebuilt UI for video calls",
   "scripts": {
-    "dev": "http-server",
+    "dev": "http-server"
   },
   "devDependencies": {
-    "http-server": "^0.12.3",
+    "http-server": "^0.12.3"
   }
 }
