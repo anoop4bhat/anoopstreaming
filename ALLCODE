@@ -11,3 +11,12 @@ curl --request POST \
 https://anoopaws.daily.co/anoopLiveStream?t=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvIjp0cnVlLCJ1IjoiQWRtaW5pc3RyYXRvciIsImQiOiJmZjU1MGQxNi03ZTM4LTRhODgtYjIwYy03NjllMGIwNDk1YzIiLCJpYXQiOjE2MjI3NzU4ODR9.ukoNop_dkOGYbXPs3VhRuv_DoAiuMITnUTZSVo7G9xg
 
 
+curl --request POST \
+--url https://api.daily.co/v1/meeting-tokens \
+--header 'authorization: Bearer 0e0b1e9a3b4445be3582dd2fe50d8266f443b1d8f8bfe89f8684b4a102bbcca8' \
+--header 'content-type: application/json' \
+--data '{"properties":{"user_name":"Participant","room_name":"anoopLiveStream"}}'
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1IjoiUGFydGljaXBhbnQiLCJyIjoiYW5vb3BMaXZlU3RyZWFtIiwiZCI6ImZmNTUwZDE2LTdlMzgtNGE4OC1iMjBjLTc2OWUwYjA0OTVjMiIsImlhdCI6MTYyMjg0MzQ4Mn0.Qg21-tWYIFteF_ttoJoQL_qSJjm5JqFHze38C85hfz8"}% 
+
+https://anoopaws.daily.co/anoopLiveStream?t=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1IjoiUGFydGljaXBhbnQiLCJyIjoiYW5vb3BMaXZlU3RyZWFtIiwiZCI6ImZmNTUwZDE2LTdlMzgtNGE4OC1iMjBjLTc2OWUwYjA0OTVjMiIsImlhdCI6MTYyMjg0MzQ4Mn0.Qg21-tWYIFteF_ttoJoQL_qSJjm5JqFHze38C85hfz8

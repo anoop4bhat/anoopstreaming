@@ -115,6 +115,8 @@ async function joinCall() {
 // Logs the Daily event to the console
 function showEvent(e) {
   console.log('callFrame event', e);
+  if(e.action =="live-streaming-error")
+  window.alert("Only Admin can start a live Stream! SorrY!!");
 }
 
 // 'joined-meeting'
